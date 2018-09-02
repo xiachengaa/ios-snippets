@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jjparamark</string>
+	<string>jjsingleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark- Life Cycle
-#pragma mark- Public Method
-#pragma mark- Delegate
-#pragma mark- Event Response
-#pragma mark- Getters and Setters
-#pragma mark- Private Method</string>
+	<string>+ (&lt;#Class#&gt; *)sharedInstance {
+    
+    static &lt;#Class#&gt;* _instance = nil;
+    static dispatch_once_t predicate;
+    dispatch_once(&amp;predicate, ^{
+        _instance = [[self alloc] init];
+    });
+    return _instance;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B8960109-29A5-4B92-BD26-AEBC1366A9FD</string>
+	<string>B3BCB170-490A-488F-AB9C-44EB16C72FFF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>代码组织分段</string>
+	<string>创建一个单例方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

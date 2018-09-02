@@ -3,24 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jjparamark</string>
+	<string>jjtodo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark- Life Cycle
-#pragma mark- Public Method
-#pragma mark- Delegate
-#pragma mark- Event Response
-#pragma mark- Getters and Setters
-#pragma mark- Private Method</string>
+	<string>//TODO:&lt;#comment#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B8960109-29A5-4B92-BD26-AEBC1366A9FD</string>
+	<string>1032BF7D-7A37-4FB2-B3AD-FA8443334826</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>代码组织分段</string>
+	<string>创建TODO注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

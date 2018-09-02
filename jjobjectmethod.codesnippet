@@ -3,24 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jjparamark</string>
+	<string>jjobjectmethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark- Life Cycle
-#pragma mark- Public Method
-#pragma mark- Delegate
-#pragma mark- Event Response
-#pragma mark- Getters and Setters
-#pragma mark- Private Method</string>
+	<string>- (&lt;#Object#&gt; *)&lt;#method name#&gt;
+{
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B8960109-29A5-4B92-BD26-AEBC1366A9FD</string>
+	<string>395D80C4-BC1C-420E-A8FE-E218934480BE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>代码组织分段</string>
+	<string>创建返回值为Object的方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

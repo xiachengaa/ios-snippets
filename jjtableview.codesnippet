@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jjtableview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UITableView *)tableView
+{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc]init];
+        [self.view addSubview:_tableView];
+        [_tableView mas_makeConstraints:^(MASConstraintMaker *make){
+            make.edges.equalTo(self.view);
+        }];
+        self.tableView.dataSource = self;
+        self.tableView.delegate = self;
+        self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        [self.tableView registerClass:[&lt;#CellClasee#&gt; class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
+    }
+    return _tableView;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>74EAED50-A033-41AB-AD2D-2CA42E7F59AF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建一个UITableView对象</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
